@@ -20,10 +20,6 @@
     display: none;
 }
 
-.actual-notebook-closed{
-    display: none;
-}
-
 .body{
     display: flex;
     justify-content: center;
@@ -134,7 +130,11 @@
 
 .note-content{
     padding-left: 10px;
-    display: flex;
+    overflow: hidden;
+    outline: none;
+    word-break: break-word;
+    white-space: pre-wrap;
+    line-height: 24.5px;
     flex-direction: column;
     text-align: start;
     font-family: jwrite;

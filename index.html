@@ -19,14 +19,14 @@
             </div>
             <div class="actual-notebook">
                 <div class="top">
-                    <button class="close">Close</button>
-                    <p class="page-index">1 / 10</p>
+                    <button class="close" onclick=closeBook() >Close</button>
+                    <p class="page-index">1 / 1</p>
                 </div>
                 <div class="page">
                     <img src="open.png" alt="" class="page">
                     <div class="note-text">
                         <input type='text' class="note-title" placeholder="Title here"></input>
-                        <p class="note-content">Write here</p>
+                        <div class="note-content" contenteditable="true" spellcheck="false">Write here</div>
                     </div>
                 </div>
                 <div class="move-around">
@@ -35,5 +35,6 @@
                 </div>
             </div>
         </div>
+        <script src="notebook.js"></script>
     </body>
 </html>
