@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+            <meta charset = "UTF-8">
+            <meta name = "viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=yes">
+            <link rel="stylesheet" href="notebook.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="front-page">
+                <img src="notebook.png" alt="" class="front">
+                <div class="front-text">
+                    <div class="front-title">
+                        <h2 class="f-title">Digital Notebook!</h2>
+                        <h4 class="f-subtitle">A little notebook that you can write in :]</h4>
+                    </div>
+                    <button class="f-open" onclick=openBook()>Open</button>
+                </div>
+            </div>
+            <div class="actual-notebook">
+                <div class="top">
+                    <button class="close">Close</button>
+                    <p class="page-index">1 / 10</p>
+                </div>
+                <div class="page">
+                    <img src="open.png" alt="" class="page">
+                    <div class="note-text">
+                        <input type='text' class="note-title" placeholder="Title here"></input>
+                        <p class="note-content">Write here</p>
+                    </div>
+                </div>
+                <div class="move-around">
+                    <button class="move">← Back</button>
+                    <button class="move">Next →</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
