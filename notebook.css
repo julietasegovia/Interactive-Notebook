@@ -104,6 +104,12 @@
     width: 90px;
 }
 
+.move-disabled, .move:hover.move-disabled{
+    background-color: rgb(225, 217, 219);
+    border: 2px solid rgb(192, 171, 175);
+    color: rgb(192, 158, 165);
+}
+
 .close:hover, .move:hover{
     background-color: rgb(242, 181, 194);
     color: rgb(255, 223, 229);
